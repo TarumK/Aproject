@@ -12,6 +12,15 @@ div.container {
     background-color: #efc39f;
 }
 
+div.pagination {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-size: smaller;
+    /*Arial, sans-serif;*/
+    margin: 0px;
+    padding: 10px;
+    background-color: #efc39f;
+}
+
 header {
     background-color: #fd7201;
     color: #fff;
