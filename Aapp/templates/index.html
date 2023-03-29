@@ -12,8 +12,10 @@
       <p class="card-text">{{ joke.text }}</p>
       <p class="card-text"><small class="text-muted">{{ joke.pub_date }}</small></p>
       <div class="btn-group" role="group">
-        <button type="button" class="btn btn-primary">{{ joke.rating }} Likes</button>
-        <button type="button" class="btn btn-secondary">{{ joke.rating }} Dislikes</button>
+        <button type="button" class="btn btn-primary"> &uarr; </button>
+         {{ joke.rating }}
+        <button type="button" class="btn btn-secondary"> &darr; </button>
+<!--        <button type="button" class="btn btn-secondary">{{ joke.rating }} Dislikes</button>-->
       </div>
     </div>
   </div>
