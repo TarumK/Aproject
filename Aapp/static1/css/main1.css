@@ -1,21 +1,21 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 10px;
+    margin: 50px;
     padding: 0;
-    background-color: #f8d0b0;
+    background-color: #efc39f;
 }
 
 div.container {
     font-family: Arial, sans-serif;
-    margin: 0px;
-    padding: 10px;
-    background-color: #efc39f;
+    margin: 50px;
+    padding: 0;
+    background-color: #ffffff;
 }
 
 header {
     background-color: #fd7201;
     color: #fff;
-    padding: 0px;
+    padding: 20px;
 }
 
 nav {

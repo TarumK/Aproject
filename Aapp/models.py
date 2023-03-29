@@ -1,7 +1,7 @@
 from django.db import models
 
 class Joke(models.Model):
-    title = models.CharField(max_length=255)
+    title = models.CharField(max_length=255, blank=True)
     text = models.TextField()
     pub_date = models.DateTimeField(auto_now_add=True)
     rating = models.IntegerField(default=0)

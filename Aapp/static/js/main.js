@@ -1,1 +1,2 @@
-// JavaScript code goes here
+// prompt('sdfsdf');
+alert('test1');
